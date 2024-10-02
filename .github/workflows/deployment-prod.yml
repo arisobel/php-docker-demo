@@ -28,10 +28,11 @@ jobs:
         uses: AlexxNB/caprover-action@v1
         with:
           # CapRover admin panel URL. Ex. https://captain.root.domain.com
-          server: 'https://captain.caprover.staging.yipl.com.np'
+          server: 'https://captain.lion.app.br/'
           # CapRover admin password. Use $\{{ secrets.CAPROVER_PASSWORD }} for better security.
           password: ${{ secrets.CAPROVER_PASSWORD }}
           # Application name on the CapRover server. Must exists.
-          appname: 'iatipublisher-prod'
+          appname: 'php-docker-demo'
           # Branch which will be deployed
           branch: main
+
